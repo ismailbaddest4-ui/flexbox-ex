@@ -1,0 +1,60 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+h3{
+    font-size: large;
+    display: flex;
+    justify-content: cente;
+}
+
+.flex-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sub-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.flex-container h3{
+    font-size: 2.5rem;
+}
+
+.box{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+.img-container{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.fruit-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    background-color: rgb(141, 10, 10);
+    color: white;
+    border-radius: 10px;
+}
